@@ -1,0 +1,76 @@
+
+
+          Step description      	            Expected result 	               Actual result	         Pass/Fall
+ Block_1 - Testing plus function (+ scenario)
+ 1.Enter two positive numbers (4 & 6)                10                                 10                      Pass
+ 2.Enter two negative numbers (-6 & -5)             -11                                -11                      Pass
+ 3.Enter one positive & one negative (7 & -3)         4                                  4                      Pass
+
+ Block_1.2 - Testing plus function (- scenario)
+ 1.Enter one char element (c)         Message:"Wrong! Please, enter           Message:"Wrong! Please, enter
+                                      number again". The program asks         number again". The program asks   Pass
+                                      to enter number again.                  to enter number again.
+
+ 2. Enter one number & one char (+)   Message:"Wrong! Please, enter           Message:"Wrong! Please, enter
+                                      number again". The program asks         number again". The program asks   Pass
+                                      to enter number again.                  to enter number again.
+
+ Block_2 - Testing subtraction function (+ scenario)
+ 1.Enter two positive numbers (4 & 6)                -2                                 -2                      Pass
+ 2.Enter two negative numbers (-6 & -5)              -1                                 -1                      Pass
+ 3.Enter one positive & one negative (7 & -3)         10                                10                      Pass
+
+ Block_2.1 - Testing subtraction function (- scenario)
+ 1.Enter one char element (c)        Message:"Wrong! Please, enter           Message:"Wrong! Please, enter
+                                     number again". The program asks         number again". The program asks    Pass
+                                     to enter number again.                  to enter number again.
+
+ 2. Enter one number & one char (+)  Message:"Wrong! Please, enter           Message:"Wrong! Please, enter
+                                     number again". The program asks         number again". The program asks    Pass
+                                     to enter number again.                  to enter number again.
+
+ Block_3 - Testing multiplication function (+ scenario)
+ 1.Enter two positive numbers (4 & 6)                24                                 24                      Pass
+ 2.Enter two negative numbers (-6 & -5)              24                                 24                      Pass
+ 3.Enter one positive & one negative (7 & -3)       -21                                -21                      Pass
+
+ Block_3.1 - Testing multiplication function (- scenario)
+ 1.Enter one char element (c)         Message:"Wrong! Please, enter          Message:"Wrong! Please, enter
+                                      number again". The program asks        number again". The program asks    Pass
+                                      to enter number again.                 to enter number again.
+
+ 2. Enter one number & one char (+)   Message:"Wrong! Please, enter          Message:"Wrong! Please, enter
+                                      number again". The program asks        number again". The program asks    Pass
+                                      to enter number again.                 to enter number again.
+
+ Block_4 - Testing division function (+ scenario)
+ 1.Enter two positive numbers (20 & 5)                4                                 4                       Pass
+ 2.Enter two negative numbers (-20 & -5)              4                                 4                       Pass
+ 3.Enter one positive & one negative (20 & -5)       -4                                -4                       Pass
+
+ Block_4.1 - Testing multiplication function (- scenario)
+ 1.Enter one char element (c)        Message:"Wrong! Please, enter          Message:"Wrong! Please, enter
+                                     number again". The program asks        number again". The program asks     Pass
+                                     to enter number again.                 to enter number again.
+
+ 2.Enter one number & one char (+)   Message:"Wrong! Please, enter          Message:"Wrong! Please, enter
+                                     number again". The program asks        number again". The program asks     Pass
+                                     to enter number again.                 to enter number again.
+
+ 3.Enter one number & Null     Message:"Dividing by 0 is undefined".    Message:"Dividing by 0 is undefined".   Pass
+                               The program asks to enter number again.  The program asks to enter number again. Pass
+
+ Block_5 - Testing entering operation (+ scenario)
+ 1.Enter char "+" operation    The program doing plus function            The program doing plus function           Pass                                     Pass
+ 2.Enter char "-" operation    The program doing subtraction function     The program doing subtraction function    Pass                                   Pass
+ 3.Enter char "*" operation    The program doing multiplication function  The program doing multiplication function Pass                                                        Pass
+ 4.Enter char "/" operation    The program doing division function        The program doing division function       Pass
+
+ Block_5 - Testing entering operation (- scenario)
+ 1.Enter one char element (c)        Message:"Wrong operation,              Message:"Wrong operation,
+                                     please try again". The program asks    please try again". The program asks  Pass
+                                     to enter needs operation again.        to enter needs operation again.
+
+ 2.Enter string "dklgnb"             Message:"Wrong operation,              Message:"Wrong operation,
+                                     please try again". The program asks    please try again". The program asks  Pass
+                                     to enter needs operation again.        to enter needs operation again.
