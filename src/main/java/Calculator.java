@@ -15,7 +15,7 @@ public class Calculator {
     }
 
 
-    private static double getResult(double num1, double num2, char operation) {
+    public static double getResult(double num1, double num2, char operation) {
         double result;
         switch (operation) {
             case '+':
@@ -42,13 +42,13 @@ public class Calculator {
         return result;
     }
 
-    private static char getOperation() {
+    public static char getOperation() {
         System.out.print("Enter needs operation (+, - , * , /): ");
         char op = scanner.next().charAt(0);
         return op;
     }
 
-    private static double getNumbers() {
+    public static double getNumbers() {
         System.out.print("Enter number: ");
         double num;
         if (scanner.hasNextDouble()) {
